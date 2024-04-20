@@ -1,0 +1,226 @@
+*{
+    font-style: 'san-serif';
+@media screen and (max-width: 768px){
+}
+body{
+    margin: 0 auto;
+    background-image: url(images/desktop_homepage_hero.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:  rgb(248, 248, 115);;
+}
+.navbar{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+.navbar ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-right: 30px;
+    height: 40px;
+}
+.cat{
+
+    width: 100%;
+    margin-bottom: 720px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 218, 218);
+    width: 400px;
+    float: right;
+    margin-top: 150px;
+    border-radius: 20px;
+    opacity: 0.8;
+    margin-right: 100px;
+    padding-bottom: 20px;
+    align-items: center;
+
+
+    
+}
+.tunga{
+    margin-inline: 100px;
+}
+.daw:hover{
+    background-color: yellow;
+    cursor: pointer;
+
+}
+.pussy{
+    background-color: #EFECE6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.arrow{
+    position: absolute;
+    border: solid yellow; 
+    background-color: yellow;
+    border-radius: 20%;
+    height: 100px;
+    width: 50px;
+    text-align: center;
+    align-items: center;
+    top: 90%;
+    left: 48%;
+}
+.bordersakilid{
+    position: fixed;
+    width: 20px;
+    min-height: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    background-color: rgb(248, 248, 115);
+
+}
+.bordersakilid:hover{
+    position: fixed;
+    width: 20px;
+    min-height: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    background-color: rgb(248, 248, 115);
+    transform: scale(1.9);
+    transition: transform ease 2s;
+
+}
+.bordersakilidr{
+    position: fixed;
+    width: 20px;
+    min-height: 100%;
+    height: auto;
+    right: 0;
+    top: 0;
+    background-color: rgb(248, 248, 115);
+
+}
+.bordersakilidr:hover{
+    position: fixed;
+    width: 20px;
+    min-height: 100%;
+    height: auto;
+    right: 0;
+    top: 0;
+    background-color: rgb(248, 248, 115);
+    transform: scale(1.9);
+    transition: transform ease 2s;
+
+}
+.container {
+    margin-inline: 8%;
+}
+.why{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.whytxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 600px;
+    width: 9000px;
+}
+.btn1{
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(248, 248, 115);
+    
+}
+.walawhy{
+    background-color: #EFECE6;
+
+}
+.ngano{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 15%;
+    margin-top: 100px;
+}
+.how{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.leter{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 9000px;  
+}
+.howwy{
+    background-color: #EFECE6;
+}
+.how li{
+    list-style: none;
+}
+.how li::before{
+    content: '✓ ';
+    border: black solid;
+    background-color: rgb(248, 248, 115);
+    border-radius: 50%;
+    margin-right: 2px;
+    padding: 4px;
+}
+.re{
+    display: flex;
+    flex-direction: column;
+}
+.picr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0 20px 0; 
+}
+.picr img{
+    width: 350px;
+}
+.even{
+    background-color: #EFECE6;
+    text-align: center;
+}
+.ff{
+    background-color: #EFECE6;
+    padding: 25px 0 25px 0;
+}
+.fff{
+    align-items: center;
+}
+.yehey ul {
+    list-style: none;
+}
+.yehey li{
+    padding: 4px;
+    font-size: 13px;
+}
+.yehey li:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.yehey{
+    display: flex;
+    justify-content: space-between;
+}
+.kuanraa{
+    display: flex;
+}}
